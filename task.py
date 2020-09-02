@@ -35,19 +35,21 @@ print(charcount(text_2))
 
 
 
-# Number 4 => step 6 kenapa jadi step 2??
+# Number 4
 def bubble_sort(items) :
+    x = 0
     for i in range(len(items)-1,0,-1):
         for j in range(i):
             if items[j]>items[j+1]:
-                print('Step ', j+1, ':', items)
+                if(j>-1):
+                    x += 1
+                    print(f'Step {x} :', items)
                 temp = items[j]
                 items[j] = items[j+1]
                 items[j+1] = temp
     
 numbers = [12,3,5,4,8,9]
 bubble_sort(numbers)
-# print(numbers)
 
 
 

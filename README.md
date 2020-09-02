@@ -2,7 +2,7 @@
 - [x] Combine several Lists
 - [x] Merge List
 - [ ] Char Counter
-- [ ] Bubble Sort
+- [x] Bubble Sort
 - [ ] Masking
 - [x] Missing Letter
 - [x] Sorting Odd Number
