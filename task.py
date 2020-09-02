@@ -57,9 +57,25 @@ bubble_sort(numbers)
 
 
 
+# c# example
+# var new_string = "";
+
+# // 1. Replace first Length - n characters with X
+# for (var i = 0; i < str.Length - n; i++)
+#     new_string += "X";
+
+# // 3. Add in the last n characters from original string.
+# new_string += str.Substring(str.Length - n);
+
 # Number 5
-def masking(str):
-    print('*' * len(str))
+def masking(text):
+    new_string = ""
+    for x in range(len(text)):
+        if len(text)-x>3:
+            new_string += '*'
+        else:
+            new_string += text[x]
+    print(new_string)
 
 secret_text = "23dn3ir30fd2eddd"
 masking(secret_text)

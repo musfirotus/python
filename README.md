@@ -3,6 +3,6 @@
 - [x] Merge List
 - [x] Char Counter
 - [x] Bubble Sort
-- [ ] Masking
+- [x] Masking
 - [x] Missing Letter
 - [x] Sorting Odd Number
