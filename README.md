@@ -5,4 +5,4 @@
 - [ ] Bubble Sort
 - [ ] Masking
 - [ ] Missing Letter
-- [ ] Sorting Odd Number
+- [x] Sorting Odd Number
