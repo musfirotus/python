@@ -21,14 +21,18 @@ print (sorted_dict)
 
 
 
-# Number 3 => belum bisa replace sesuai jumlah
-from collections import Counter
-
+# Number 3
 text_1 = "Mammals".lower()
 text_2 = "Bruiser build".lower()
 
-def charcount(stri):
-    return Counter(stri)
+def charcount(str):
+    arr = {}
+    for x in str:
+        if x in arr:
+            arr[x] += '*'
+        elif x not in arr:
+            arr[x] = '*'
+    print(arr)
 
 print(charcount(text_1))
 print(charcount(text_2))
@@ -50,6 +54,15 @@ def bubble_sort(items) :
     
 numbers = [12,3,5,4,8,9]
 bubble_sort(numbers)
+
+
+
+# Number 5
+def masking(str):
+    print('*' * len(str))
+
+secret_text = "23dn3ir30fd2eddd"
+masking(secret_text)
 
 
 
