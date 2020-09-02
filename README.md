@@ -4,5 +4,5 @@
 - [ ] Char Counter
 - [ ] Bubble Sort
 - [ ] Masking
-- [ ] Missing Letter
+- [x] Missing Letter
 - [x] Sorting Odd Number

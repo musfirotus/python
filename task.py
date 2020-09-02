@@ -51,6 +51,22 @@ bubble_sort(numbers)
 
 
 
+# Number 6
+import string
+
+list_letters_first = ["c","d","e","g","h"]
+list_letters_second = ["X","Z"]
+
+def missing_letter(chars):
+    charset = string.ascii_lowercase if chars[0] >= 'a' else string.ascii_uppercase
+    for letter in charset[charset.index(chars[0]):]:
+        if letter not in chars:
+            return letter[0]
+
+print('list_letters_first =', missing_letter(list_letters_first))
+print('list_letters_second =', missing_letter(list_letters_second))
+
+
 # Number 7
 def sort_odd(source_array):
     odd_numbers = sorted([n for n in source_array if n%2!=0])
