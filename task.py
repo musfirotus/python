@@ -18,3 +18,17 @@ res = {menus[i]: price[i] for i in range(len(menus))}
 
 sorted_dict = dict(sorted(res.items(), key=lambda item: item[1], reverse=False))
 print (sorted_dict)
+
+
+
+# Number 3
+from collections import Counter
+
+text_1 = "Mammals".lower()
+text_2 = "Bruiser build".lower()
+
+def charcount(stri):
+    return Counter(stri)
+
+print(charcount(text_1))
+print(charcount(text_2))
