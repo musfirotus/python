@@ -7,6 +7,7 @@ fh.setLevel(logging.DEBUG)
 formatter = logging.Formatter("[%(asctime)s] %(levelname)s: %(message)s")
 fh.setFormatter(formatter)
 logger.addHandler(fh)
+emergency = logger.setLevel(logging.EMERGENCY)
 
 class Log:
     def info(self):
@@ -30,8 +31,8 @@ class Log:
     def critical(self):
         logger.critical("Medic!! We've got critical damages.")
 
-    # def emergency(self):
-    #     logger.emergency("This is an information about something.")
+    def emergency(self):
+        logger.emergency("This is an information about something.")
 
 log = Log()
 log.info()
@@ -41,4 +42,4 @@ log.warning()
 log.debug()
 # log.alert()
 log.critical()
-# log.emergency()
+log.emergency()
