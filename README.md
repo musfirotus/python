@@ -1,5 +1,5 @@
 # Week 7 Day 4
 - [ ] Simple CRUD
-- [ ] Log
+- [x] Log
 - [ ] Auth
 - [ ] Method Chaining
