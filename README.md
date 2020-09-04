@@ -10,7 +10,7 @@
     - removeItem
     - totalQuantity
     - totalPrice
-  - yg belum :
     - checkout
+  - yg belum :
     - addDiscount
     - addItem with quantity default value
