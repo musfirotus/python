@@ -8,9 +8,9 @@ with urllib.request.urlopen("https://jsonplaceholder.typicode.com/posts") as url
 with urllib.request.urlopen("https://jsonplaceholder.typicode.com/users") as url:
     users = json.loads(url.read().decode())
 
-def filter_user(id):
+def user(id):
     return list(filter(lambda a: a['id'] == id, users))[0]
 
 for post in posts:
-    post['user'] = filter_user(post['userId'])
+    post['user'] = user(post['userId'])
     print(json.dumps(post, indent=4))
