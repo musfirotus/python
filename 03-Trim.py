@@ -1,0 +1,1 @@
+'''Trim characters/text'''

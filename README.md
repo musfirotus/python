@@ -1,16 +1,7 @@
 # Week 7 Day 4
-- [x] Simple CRUD - belum auto generate id
-- [x] Log
-- [ ] Auth
-- [x] Method Chaining
-  - yg sudah :
-    - addItem
-    - totalItems
-    - showAll
-    - removeItem
-    - totalQuantity
-    - totalPrice
-    - checkout
-  - yg belum :
-    - addDiscount
-    - addItem with quantity default value
+- [ ] Mode
+- [ ] Convert
+- [ ] Trim
+- [ ] Querying Json
+- [ ] Combine Data
+- [ ] Web Scrapping

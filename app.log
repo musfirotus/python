@@ -1,5 +1,0 @@
-[2020-09-03 21:42:49,670] INFO: This is an information about something.
-[2020-09-03 21:42:49,670] ERROR: We can't divide any numbers by zero.
-[2020-09-03 21:42:49,670] WARNING: Insufficient funds.
-[2020-09-03 21:42:49,670] DEBUG: This is debug message.
-[2020-09-03 21:42:49,671] CRITICAL: Medic!! We've got critical damages.

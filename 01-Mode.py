@@ -1,0 +1,1 @@
+'''Mode to show Frequent number'''
