@@ -1,7 +1,7 @@
 # Week 7 Day 4
-- [x] Simple CRUD
+- [x] Simple CRUD - belum auto generate id
 - [x] Log
-- [x] Auth - belum auto generate id
+- [ ] Auth
 - [x] Method Chaining
   - yg sudah :
     - addItem
