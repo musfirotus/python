@@ -1,4 +1,4 @@
-# Week 7 Day 4
+# Week 7 Day 5
 - [ ] Mode
 - [ ] Convert
 - [ ] Trim
