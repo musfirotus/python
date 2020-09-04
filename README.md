@@ -2,4 +2,8 @@
 - [x] Simple CRUD
 - [x] Log
 - [x] Auth - belum auto generate id
-- [x] Method Chaining - hanya additem
+- [x] Method Chaining - yg sudah :
+  - addItem
+  - totalItems
+  - showAll
+  - removeItem
