@@ -13,7 +13,7 @@ class Cart:
 
     def removeItem(self,value):
         for i, val in enumerate(self.items):
-            if val['item_id'] == value['item_id']: # konsep nya sama seperti forEach Javascript
+            if val['item_id'] == value['item_id']:
                 del self.items[i]
         return self
 
