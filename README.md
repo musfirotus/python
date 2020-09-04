@@ -2,8 +2,15 @@
 - [x] Simple CRUD
 - [x] Log
 - [x] Auth - belum auto generate id
-- [x] Method Chaining - yg sudah :
-  - addItem
-  - totalItems
-  - showAll
-  - removeItem
+- [x] Method Chaining
+  - yg sudah :
+    - addItem
+    - totalItems
+    - showAll
+    - removeItem
+    - totalQuantity
+    - totalPrice
+  - yg belum :
+    - checkout
+    - addDiscount
+    - addItem with quantity default value
