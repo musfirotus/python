@@ -1,7 +1,7 @@
 # Week 7 Day 5
-- [ ] Mode
-- [ ] Convert
-- [ ] Trim
+- [x] Mode
+- [x] Convert
+- [x] Trim
 - [ ] Querying Json
-- [ ] Combine Data
+- [x] Combine Data
 - [ ] Web Scrapping
