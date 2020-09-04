@@ -1,3 +1,5 @@
+import json
+
 items = []
 
 class Cart:
@@ -29,12 +31,11 @@ class Cart:
         sumPrice = sum(item['price'] for item in items)
         print(f"Total Price: {sumPrice}")
 
-    # def removeItem(self, id):
-    #     for i, d in enumerate(items):
-    #         if d['id'] == id:
-    #             return items.pop(i)
-
-    # def totalItems()
+    def checkout(self):
+        f = open("cart.txt", "a+")
+        f.write(json.dumps(self.items))
+        f.close()
+        print("Sukses Checkout!")
 
 cart = Cart()
 
@@ -58,4 +59,4 @@ cart.totalPrice() # 51200
 
 cart.showAll() # Show all items in cart
 
-# cart.checkout() # Store data in a file i.e : cart.txt
+cart.checkout() # Store data in a file i.e : cart.txt
