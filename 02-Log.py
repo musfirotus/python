@@ -7,7 +7,6 @@ fh.setLevel(logging.DEBUG)
 formatter = logging.Formatter("[%(asctime)s] %(levelname)s: %(message)s")
 fh.setFormatter(formatter)
 logger.addHandler(fh)
-emergency = logger.setLevel(logging.EMERGENCY)
 
 class Log:
     def info(self):
