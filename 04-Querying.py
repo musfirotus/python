@@ -13,14 +13,26 @@ def jakarta(val):
     return val['first_name'] if str(val['addresses'][0]['city']) == 'DKI Jakarta' else False
 
 def month(val):
-    return val['first_name'] if str(val['birthday'].split('-')[1]) == '04' else False
+    return val['first_name'] if int(val['birthday'].split('-')[1]) == 4 else False
 
 def dept(val):
     # ['department']['name'] langsung mengambil object
     return val['first_name'] if str(val['department']['name']) == 'Research and development' else False
 
+# def absence(val):
+#     return val['first_name'] if str(val['presence_list'].split('-')[1]) == '10' else False
+
+def count(var):
+    return int(var.split('-')[1]) == 10 and int(var.split('-')[0]) == 2019
+
 def absence(val):
-    return val['first_name'] if str(val['presence_list'].split('-')[1]) == '10' else False
+    oktober = list(filter(count,val['presence_list']))
+    # print(list(oktober))
+    # print("Yg Absen di bln Oktober :")
+    # print("Name : ",val['first_name'])
+    # print("absent : ",len(oktober))
+    return {"Name": val['first_name'], "absence": len(oktober)}
+
 
 upSalary = filter(None, map(salary,data))
 inJakarta = filter(None, map(jakarta,data))
@@ -32,6 +44,7 @@ print("Gaji diatas 15 JT :\n", ", ".join(list(upSalary)))
 print("Alamat di DKI Jakarta :\n", ", ".join(list(inJakarta)))
 print("Lahir di bulan April :\n", ", ".join(list(month)))
 print("Di departement Research :\n", ", ".join(list(inDept)))
-print("Yg Absen di bln Oktober :\n", ", ".join(list(inAbsence)))
+print("Yg Absen di bln Oktober :")
+print(list(inAbsence))
 
 # Code by Musfirotus
