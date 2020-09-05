@@ -1,5 +1,7 @@
 '''Combine Data'''
 
+# referensi : https://docs.python.org/3/howto/urllib2.html
+
 import urllib.request, json
 
 with urllib.request.urlopen("https://jsonplaceholder.typicode.com/posts") as url:
@@ -14,3 +16,5 @@ def user(id):
 for post in posts:
     post['user'] = user(post['userId'])
     print(json.dumps(post, indent=4))
+
+# Code by Musfirotus
