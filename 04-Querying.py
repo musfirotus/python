@@ -14,10 +14,14 @@ with urllib.request.urlopen("https://mul14.github.io/data/employees.json") as ur
 
 def salary(val):
     return val['first_name'] if int(val['salary']) > 15000000 else False
-    # if (int(val['salary']) > 15000000):
-    #     return val['first_name']
-    # else:
-    #     return
+
+def jakarta(val):
+    return val['first_name'] if str(val['addresses'][0]['city']) == 'DKI Jakarta' else False
 
 upSalary = filter(None, map(salary,data))
-print(",".join(list(upSalary)))
+inJakarta = filter(None, map(jakarta,data))
+
+print("Gaji diatas 15 JT :\n", ", ".join(list(upSalary)))
+print("Alamat di DKI Jakarta :\n", ", ".join(list(inJakarta)))
+
+# Code by Musfirotus
