@@ -7,8 +7,8 @@
     - Gaji diatas 15 JT
     - Alamat di Jakarta
     - Employee di Research and Development departement
-  - yg belum :
     - Lahir di bulan April
+  - yg belum :
     - Absen di bulan Oktober
 - [x] Combine Data
 - [ ] Web Scrapping
