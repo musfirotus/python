@@ -3,12 +3,10 @@
 - [x] Convert
 - [x] Trim
 - [x] Querying Json
-  - yg sudah :
     - Gaji diatas 15 JT
     - Alamat di Jakarta
     - Employee di Research and Development departement
     - Lahir di bulan April
-  - yg belum :
     - Absen di bulan Oktober
 - [x] Combine Data
-- [ ] Web Scrapping
+- [x] Web Scrapping
