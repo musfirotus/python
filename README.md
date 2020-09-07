@@ -10,9 +10,9 @@
 - [x] 3. Menentukan rating film
     - [x] Script
     - [x] Test
-- [ ] 4. Trim kalimat
-    - [ ] Script
-    - [ ] Test
+- [x] 4. Trim kalimat
+    - [x] Script
+    - [x] Test
 - [x] 5. Number to String
     - [x] Script
     - [x] Test
