@@ -13,9 +13,9 @@
 - [ ] 4. Trim kalimat
     - [ ] Script
     - [ ] Test
-- [ ] 5. Number to String
+- [x] 5. Number to String
     - [x] Script
-    - [ ] Test
+    - [x] Test
 - [ ] 6. Angka yang paling banyak muncul
     - [x] Script
     - [ ] Test
