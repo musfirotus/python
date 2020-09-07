@@ -16,6 +16,6 @@
 - [x] 5. Number to String
     - [x] Script
     - [x] Test
-- [ ] 6. Angka yang paling banyak muncul
+- [x] 6. Angka yang paling banyak muncul
     - [x] Script
-    - [ ] Test
+    - [x] Test
