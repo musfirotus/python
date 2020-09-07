@@ -1,13 +1,16 @@
 '''Convert number to string'''
 
 # NUMBER TO Convert IN PYTHON (INDIAN SYSTEM) 
-def Convert(n): 
+def Convert(n:int): 
     sat = ["Nol", "Satu", "Dua", "Tiga", "Empat", "Lima", "Enam", "Tujuh", "Delapan", "Sembilan"] # satuan
     las = ["Sepuluh","Sebelas"] # belas
     tus = ["Seratus"] # seratus
     # teens = ["Ten","Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen"] 
     # tens = ["Twenty","Thirty", "Fourty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"] 
-    if n <= 9:
+    if type(n) != int:
+        raise ValueError
+    
+    elif n <= 9:
         return sat[n]
     
     elif n == 10:
