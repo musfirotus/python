@@ -4,7 +4,7 @@ sys.path.append('./src/')
 
 from f_mode import Mode
 
-class charsTest(unittest.TestCase):
+class ModeTest(unittest.TestCase):
         
     def test_equal(self):
         self.assertEqual(Mode([1,2,3,4,5,6,6,8,6]), 6)
