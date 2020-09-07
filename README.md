@@ -1,12 +1,1 @@
-# Week 7 Day 5
-- [x] Mode
-- [x] Convert
-- [x] Trim
-- [x] Querying Json
-    - Gaji diatas 15 JT
-    - Alamat di Jakarta
-    - Employee di Research and Development departement
-    - Lahir di bulan April
-    - Absen di bulan Oktober
-- [x] Combine Data
-- [x] Web Scrapping
+# Week 8 Day 1
