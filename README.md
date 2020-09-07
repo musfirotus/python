@@ -1,9 +1,9 @@
 # Week 8 Day 1
 
 ## Tasks
-- [ ] 1. Hitung jumlah karakter
-    - [ ] Script
-    - [ ] Test
+- [x] 1. Hitung jumlah karakter
+    - [x] Script
+    - [x] Test
 - [ ] 2. Menentukan tahun kabisat
     - [ ] Script
     - [ ] Test
@@ -11,7 +11,7 @@
     - [ ] Script
     - [ ] Test
 - [ ] 4. Trim kalimat
-    - [x] Script
+    - [ ] Script
     - [ ] Test
 - [ ] 5. Number to String
     - [x] Script
