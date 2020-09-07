@@ -11,11 +11,11 @@
     - [ ] Script
     - [ ] Test
 - [ ] 4. Trim kalimat
-    - [ ] Script
+    - [x] Script
     - [ ] Test
 - [ ] 5. Number to String
-    - [ ] Script
+    - [x] Script
     - [ ] Test
 - [ ] 6. Angka yang paling banyak muncul
-    - [ ] Script
+    - [x] Script
     - [ ] Test
