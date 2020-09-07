@@ -4,9 +4,9 @@
 - [x] 1. Hitung jumlah karakter
     - [x] Script
     - [x] Test
-- [ ] 2. Menentukan tahun kabisat
-    - [ ] Script
-    - [ ] Test
+- [x] 2. Menentukan tahun kabisat
+    - [x] Script
+    - [x] Test
 - [ ] 3. Menentukan rating film
     - [ ] Script
     - [ ] Test
