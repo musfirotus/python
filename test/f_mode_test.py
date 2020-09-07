@@ -7,13 +7,13 @@ from f_mode import Mode
 class charsTest(unittest.TestCase):
         
     def test_equal(self):
-        self.assertEqual(Mode([1,2,3,4,5,6,6,8,6]), 4)
+        self.assertEqual(Mode([1,2,3,4,5,6,6,8,6]), 6)
         
     def test_not_equal(self):
-        self.assertNotEqual(Mode('saya'), 5)
+        self.assertNotEqual(Mode([1,2,3,4,5,6,6,8,6]), 5)
         
     def test_not_angka(self):
-        self.assertRaises(ValueError, Mode, 3)
+        self.assertRaises(ValueError, Mode, {1,2,3,4,5,6,6,8,6})
 
 if __name__ == '__main__':
     unittest.main()
