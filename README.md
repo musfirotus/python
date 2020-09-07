@@ -7,9 +7,9 @@
 - [x] 2. Menentukan tahun kabisat
     - [x] Script
     - [x] Test
-- [ ] 3. Menentukan rating film
-    - [ ] Script
-    - [ ] Test
+- [x] 3. Menentukan rating film
+    - [x] Script
+    - [x] Test
 - [ ] 4. Trim kalimat
     - [ ] Script
     - [ ] Test
