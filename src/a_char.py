@@ -1,9 +1,5 @@
-'''Char Module'''
-import unittest
-
-def Chars(text:str):
+def Chars(text):
     if type(text) != str:
         raise ValueError
-    return len(text)
-
-print(Chars('saya makan'))
+    else:
+        return len(text)

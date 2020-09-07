@@ -1,17 +1,19 @@
 import unittest
 import sys
 sys.path.append('./src/')
-import a_char
 
-class TestCharacter(unittest.TestCase):
-    def is_equal(self):
-        self.assertEqual(a_char.Chars('saya'), 4)
+from a_char import Chars
+
+class charsTest(unittest.TestCase):
         
-    def is_not_equal(self):
-        self.assertNotEqual(a_char.Chars('saya'), 2)
+    def test_equal(self):
+        self.assertEqual(Chars('saya'), 4)
         
-    def is_not_integer(self):
-        self.assertRaises(ValueError, a_char.Chars, 3)
+    def test_not_equal(self):
+        self.assertNotEqual(Chars('saya'), 5)
+        
+    def test_not_angka(self):
+        self.assertRaises(ValueError, Chars, 3)
 
 if __name__ == '__main__':
     unittest.main()
