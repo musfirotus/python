@@ -12,7 +12,7 @@ class ModeTest(unittest.TestCase):
     def test_not_equal(self):
         self.assertNotEqual(Mode([1,2,3,4,5,6,6,8,6]), 5)
         
-    def test_not_angka(self):
+    def test_not_list(self):
         self.assertRaises(ValueError, Mode, {1,2,3,4,5,6,6,8,6})
 
 if __name__ == '__main__':

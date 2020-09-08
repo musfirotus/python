@@ -9,7 +9,7 @@ class TestRate(unittest.TestCase):
     def test_not_equal(self):
         self.assertNotEqual(Rate(21), "DEWASA.")
         
-    def test_not_int(self):
+    def test_not_match(self):
         self.assertRaises(ValueError, Rate, '-3')
 
 if __name__ == '__main__':
